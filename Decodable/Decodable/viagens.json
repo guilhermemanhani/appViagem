@@ -1,0 +1,24 @@
+    [
+        {
+            "id": 1,            
+            "titulo": "ceara",
+            "quantidade_de_dias": 3,
+            "preco": "1.800,00",
+            "localizacao": "Praia canoa quebrada"
+        },
+        {
+            "id": 2,
+            "titulo": "londrina",
+            "quantidade_de_dias": 6,
+            "preco": "1.200,00",
+            "localizacao": "museu"
+        },
+        {
+            "id": 3,
+            "titulo": "cancu",
+            "quantidade_de_dias": 10,
+            "preco": "3.800,00",
+            "localizacao": "quintana roo"
+        }
+        
+    ]
