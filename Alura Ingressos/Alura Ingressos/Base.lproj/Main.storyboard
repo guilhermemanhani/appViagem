@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ysc-nI-L5G">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -22,38 +22,38 @@
                                         <rect key="frame" x="0.0" y="5" width="320" height="1400"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u9N-sR-Jmy">
-                                                <rect key="frame" x="20" y="120.66666666666667" width="280" height="5"/>
+                                                <rect key="frame" x="20" y="120.5" width="280" height="5"/>
                                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="5" id="3aE-ac-NtH"/>
                                                 </constraints>
                                             </view>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner.png" translatesAutoresizingMaskIntoConstraints="NO" id="h57-La-h1r">
-                                                <rect key="frame" x="20" y="130.66666666666666" width="280" height="129.99999999999997"/>
+                                                <rect key="frame" x="20" y="130.5" width="280" height="130"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="130" id="Iyi-sa-Tm4"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Local: Sambódromo do Anhembi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3d-JM-Lbz">
-                                                <rect key="frame" x="20" y="265.66666666666669" width="280" height="20.333333333333314"/>
+                                                <rect key="frame" x="20" y="265.5" width="280" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
                                                 <color key="textColor" red="0.22352941179999999" green="0.24313725489999999" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informações da sua compra" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eS-sT-K52">
-                                                <rect key="frame" x="20" y="95" width="280" height="20.666666666666671"/>
+                                                <rect key="frame" x="20" y="95" width="280" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
                                                 <color key="textColor" red="0.22352941179999999" green="0.24313725489999999" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Endereço: Avenida Olavo Fontoura, 1209 - Santana" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIj-Ok-bEC">
-                                                <rect key="frame" x="20" y="291" width="280" height="16.666666666666686"/>
+                                                <rect key="frame" x="20" y="291" width="280" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="12"/>
                                                 <color key="textColor" red="0.22352941179999999" green="0.24313725489999999" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preço: R$199,00 - Data: 21/10/2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcs-jj-apD">
-                                                <rect key="frame" x="20" y="312.66666666666669" width="280" height="20.333333333333314"/>
+                                                <rect key="frame" x="20" y="312.5" width="280" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
                                                 <color key="textColor" red="0.22352941179999999" green="0.24313725489999999" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -65,19 +65,19 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0WG-IL-gB8">
-                                                <rect key="frame" x="20" y="439" width="280" height="20.666666666666686"/>
+                                                <rect key="frame" x="20" y="439" width="280" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome Completo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3HV-D2-vhx">
-                                                <rect key="frame" x="20" y="374.66666666666669" width="280" height="20.333333333333314"/>
+                                                <rect key="frame" x="20" y="374.5" width="280" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CPF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dr0-K7-z14">
-                                                <rect key="frame" x="20" y="503.66666666666669" width="280" height="20.333333333333314"/>
+                                                <rect key="frame" x="20" y="503.5" width="280" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -88,18 +88,18 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" tag="6" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nse-lo-Luv">
-                                                <rect key="frame" x="20" y="722.66666666666663" width="280" height="34"/>
+                                                <rect key="frame" x="20" y="722.5" width="280" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Endereço" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUo-9f-MB6">
-                                                <rect key="frame" x="20" y="632.66666666666663" width="280" height="20.333333333333371"/>
+                                                <rect key="frame" x="20" y="632.5" width="280" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AxA-jX-bVQ">
-                                                <rect key="frame" x="20" y="593.66666666666663" width="280" height="34"/>
+                                                <rect key="frame" x="20" y="593.5" width="280" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                 <connections>
@@ -112,7 +112,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MW7-Cl-QBc">
-                                                <rect key="frame" x="20" y="464.66666666666669" width="280" height="34"/>
+                                                <rect key="frame" x="20" y="464.5" width="280" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                             </textField>
@@ -129,25 +129,25 @@
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CEP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LiE-NO-XyU">
-                                                <rect key="frame" x="20" y="568" width="280" height="20.666666666666629"/>
+                                                <rect key="frame" x="20" y="568" width="280" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bairro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3w-dq-qqG">
-                                                <rect key="frame" x="20" y="697" width="280" height="20.666666666666629"/>
+                                                <rect key="frame" x="20" y="697" width="280" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Cartão" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHO-W2-wKp">
-                                                <rect key="frame" x="20" y="761.66666666666663" width="280" height="19"/>
+                                                <rect key="frame" x="20" y="761.5" width="280" height="19"/>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SSr-u1-Okn">
-                                                <rect key="frame" x="20" y="782.66666666666663" width="280" height="5"/>
+                                                <rect key="frame" x="20" y="782.5" width="280" height="5"/>
                                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="5" id="6Vn-i2-nfH"/>
@@ -177,7 +177,7 @@
                                                 </constraints>
                                             </view>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="bandeiras_cartoes.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sfm-hO-Z7o">
-                                                <rect key="frame" x="20" y="792.66666666666663" width="280" height="60"/>
+                                                <rect key="frame" x="20" y="792.5" width="280" height="60"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="iDg-uL-HkK"/>
                                                 </constraints>
@@ -186,7 +186,7 @@
                                                 <rect key="frame" x="20" y="858" width="280" height="66"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vencimento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3y-Xd-zSw">
-                                                        <rect key="frame" x="0.0" y="5.3333333333333712" width="130" height="20.666666666666668"/>
+                                                        <rect key="frame" x="0.0" y="5.5" width="135" height="20.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="Wsj-Fp-nJR"/>
                                                         </constraints>
@@ -198,7 +198,6 @@
                                                         <rect key="frame" x="0.0" y="31" width="65" height="34"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="65" id="KcK-KT-AIq"/>
-                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="65" id="uZY-8m-sz4"/>
                                                         </constraints>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -208,10 +207,9 @@
                                                         </connections>
                                                     </textField>
                                                     <textField opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="AA" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xmw-Tj-NpG">
-                                                        <rect key="frame" x="65" y="31" width="65" height="34"/>
+                                                        <rect key="frame" x="70" y="31" width="65" height="34"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="65" id="S4M-7i-y6j"/>
-                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="65" id="sVZ-9J-0kB"/>
                                                         </constraints>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -221,7 +219,7 @@
                                                         </connections>
                                                     </textField>
                                                     <textField opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="3 Digitos" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="10u-7Z-SCH">
-                                                        <rect key="frame" x="150" y="29.666666666666629" width="130" height="34"/>
+                                                        <rect key="frame" x="150" y="29.5" width="130" height="34"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="130" id="eD4-s8-fkL"/>
                                                         </constraints>
@@ -233,7 +231,7 @@
                                                         </connections>
                                                     </textField>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cod. Seg." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aX7-Zu-UpQ">
-                                                        <rect key="frame" x="150" y="5" width="130" height="20.666666666666668"/>
+                                                        <rect key="frame" x="150" y="5" width="130" height="20.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="EE0-Ih-dVL"/>
                                                         </constraints>
@@ -246,6 +244,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="xmw-Tj-NpG" secondAttribute="bottom" constant="1" id="0xc-0D-35e"/>
                                                     <constraint firstAttribute="bottom" secondItem="KPd-iX-UA5" secondAttribute="bottom" constant="1" id="7KC-DT-BGd"/>
+                                                    <constraint firstItem="aX7-Zu-UpQ" firstAttribute="width" secondItem="10u-7Z-SCH" secondAttribute="width" id="DFh-xz-k1V"/>
                                                     <constraint firstItem="KPd-iX-UA5" firstAttribute="top" secondItem="d3y-Xd-zSw" secondAttribute="bottom" constant="5" id="ENG-xR-V19"/>
                                                     <constraint firstItem="xmw-Tj-NpG" firstAttribute="top" secondItem="d3y-Xd-zSw" secondAttribute="bottom" constant="5" id="GIj-M1-Vp0"/>
                                                     <constraint firstItem="KPd-iX-UA5" firstAttribute="top" secondItem="d3y-Xd-zSw" secondAttribute="bottom" constant="5" id="HFB-XS-c5d"/>
@@ -253,10 +252,10 @@
                                                     <constraint firstItem="d3y-Xd-zSw" firstAttribute="leading" secondItem="KPd-iX-UA5" secondAttribute="leading" id="aC1-IC-eNO"/>
                                                     <constraint firstItem="KPd-iX-UA5" firstAttribute="leading" secondItem="SDI-7c-6H3" secondAttribute="leading" id="bcW-rU-h3a"/>
                                                     <constraint firstItem="aX7-Zu-UpQ" firstAttribute="top" secondItem="SDI-7c-6H3" secondAttribute="top" constant="5" id="f5M-7G-Y2c"/>
+                                                    <constraint firstItem="xmw-Tj-NpG" firstAttribute="leading" secondItem="KPd-iX-UA5" secondAttribute="trailing" constant="5" id="iEL-iP-97a"/>
                                                     <constraint firstAttribute="height" constant="66" id="iVP-PI-BCk"/>
                                                     <constraint firstItem="10u-7Z-SCH" firstAttribute="top" secondItem="aX7-Zu-UpQ" secondAttribute="bottom" constant="4" id="jlI-H5-Du7"/>
                                                     <constraint firstAttribute="trailing" secondItem="10u-7Z-SCH" secondAttribute="trailing" id="l7F-zV-XPy"/>
-                                                    <constraint firstItem="aX7-Zu-UpQ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="d3y-Xd-zSw" secondAttribute="trailing" constant="8" symbolic="YES" id="ufo-cV-zMS"/>
                                                     <constraint firstAttribute="trailing" secondItem="aX7-Zu-UpQ" secondAttribute="trailing" id="xhc-dl-zoO"/>
                                                 </constraints>
                                             </view>
@@ -287,7 +286,7 @@
                                                 <rect key="frame" x="20" y="1043" width="280" height="30"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12x R$16.58 (ou R$ 199,00 à vista)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bse-Xh-4jC">
-                                                        <rect key="frame" x="7" y="4.6666666666667425" width="266" height="21"/>
+                                                        <rect key="frame" x="7" y="4.5" width="266" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -457,6 +456,10 @@
                         <outlet property="imagemBanner" destination="h57-La-h1r" id="PHe-Uc-2LG"/>
                         <outlet property="labelValorDasParcelas" destination="Bse-Xh-4jC" id="rua-kj-oSD"/>
                         <outlet property="scrollViewPrincipal" destination="bIJ-M4-uVh" id="Em7-WJ-Lvv"/>
+                        <outlet property="viewContainerCartao" destination="SDI-7c-6H3" id="PtD-Vv-sPF"/>
+                        <outlet property="wdthAno" destination="S4M-7i-y6j" id="7sX-vv-WEW"/>
+                        <outlet property="widthCodSeg" destination="eD4-s8-fkL" id="2TL-UP-Ly5"/>
+                        <outlet property="widthMes" destination="KcK-KT-AIq" id="nZ1-70-mdS"/>
                         <outletCollection property="textFields" destination="VnO-ar-Nd5" collectionClass="NSMutableArray" id="peZ-nl-blb"/>
                         <outletCollection property="textFields" destination="MW7-Cl-QBc" collectionClass="NSMutableArray" id="ix6-ZH-V5T"/>
                         <outletCollection property="textFields" destination="L25-hg-7qE" collectionClass="NSMutableArray" id="XCG-Fb-PE7"/>

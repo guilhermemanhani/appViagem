@@ -16,11 +16,25 @@ class ViewController: UIViewController, PickerViewMesSelecionado, PickerViewAnoS
     @IBOutlet weak var scrollViewPrincipal: UIScrollView!
     @IBOutlet weak var labelValorDasParcelas: UILabel!
    
+    @IBOutlet weak var widthCodSeg: NSLayoutConstraint!
+    @IBOutlet weak var widthMes: NSLayoutConstraint!
+    @IBOutlet weak var wdthAno: NSLayoutConstraint!
+    @IBOutlet weak var viewContainerCartao: UIView!
+    
     var pickerViewMes = PickerViewMes()
     var pickerViewAno = PickerViewAno()
     var pickerViewParcela = PickerViewParcela()
     
     var valorDoIngresso:BRL = 199.00
+    
+    func calculaViews() {
+        let widthContainer = viewContainerCartao.layer.bounds.width
+        let widthViewAnoMes = widthContainer/3
+        let widthViewCodSeg = widthContainer/1.5
+        widthMes.constant = widthViewAnoMes
+        wdthAno.constant = widthViewAnoMes
+        widthCodSeg.constant = widthViewCodSeg - 10
+    }
     
     @IBAction func textFieldCepAlterouValor(_ sender: UITextField) {
         guard let cep = sender.text else { return }
@@ -58,6 +72,7 @@ class ViewController: UIViewController, PickerViewMesSelecionado, PickerViewAnoS
         pickerViewMes.delegate = self
         pickerViewAno.delegate = self
         pickerViewParcela.delegate = self
+        calculaViews()
         
 //        let cpf = "089.756.339-50"
 //        if BooleanValidator().validate(cpf: cpf) {
